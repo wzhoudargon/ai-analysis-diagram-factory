@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Analysis Diagram Factory"
+  short_description: "Generate, score, and capture design-analysis prompt templates"
+  default_prompt: "Use $ai-analysis-diagram-factory to choose the right design-analysis image template, write an AI image prompt, score the result, capture reusable new cases, and propose safe template updates."
