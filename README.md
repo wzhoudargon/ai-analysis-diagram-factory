@@ -54,7 +54,7 @@ Use it when you repeatedly create:
 Clone the repository and copy the `skill/` directory into your local Codex skills folder:
 
 ```bash
-git clone https://github.com/YOUR_NAME/ai-analysis-diagram-factory.git
+git clone https://github.com/wzhoudargon/ai-analysis-diagram-factory.git
 mkdir -p ~/.codex/skills
 cp -R ai-analysis-diagram-factory/skill ~/.codex/skills/ai-analysis-diagram-factory
 ```
@@ -89,6 +89,19 @@ The skill should produce:
 - negative constraints
 - QA score
 - candidate iteration notes
+
+You can also start with a shorter natural-language request:
+
+```text
+Use $ai-analysis-diagram-factory to replicate this analysis diagram style and give me a reusable image-generation prompt.
+```
+
+For more stable results, include:
+
+- which uploaded image is the style reference
+- which uploaded image is the factual source
+- the project theme and output language
+- whether labels should be Chinese, English, or bilingual
 
 ## Template Library
 
